@@ -1,7 +1,9 @@
-#SIMPLE CALCULATOR WITHOUT USER INPUT DEVELOPED BY SOYAM KAPOOR
+#SIMPLE CALCULATOR USING USER INPUT; DEVELOPED BY SOYAM KAPOOR
 print("<=========================SIMPLE CALCULATOR WITHOUT USING USER INPUT=========================>")
-print("Addition         => 4 + 5 = ",4+5)
-print("Subtraction      => 4 - 5 = ",4-5)
-print("Multiplication   => 4 * 5 = ",4*5)
-print("Division         => 4 / 5 = ",4/5)
-print("Modulus          => 4 % 5 = ",4%5)
+first_number=float(input("Enter First Number "))
+second_number=float(input("Enter Second Number "))
+print("Addition         =>",first_number,"+",second_number,"=",first_number+second_number)
+print("Subtraction      =>",first_number,"-",second_number,"=",first_number-second_number)
+print("Multiplication   =>",first_number,"*",second_number,"=",first_number*second_number)
+print("Division         =>",first_number,"/",second_number,"=",first_number/second_number)
+print("Modulus          =>",first_number,"%",second_number,"=",first_number%second_number)
