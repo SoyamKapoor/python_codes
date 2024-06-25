@@ -85,8 +85,27 @@ print("Before using capitalize()",st,"After using capitalize()",st.capitalize())
 print("Replacing lis to liza, Before:",st,"and After:",st.replace("s","za")) #string.replace(x,y) will replaced x to y in putput
 #In python everything = object
 #Objects have method associated, depending on type
-#index() is used for both list and string, fpr ex:
+#.index() method is used for both list and string, fpr ex:
 stri="Soyam"
-rt1=["as","fer","dx"]
+rt=["as","fer","dx"]
 print("Index of Soyam string at 'y'",stri.index("y"))
-print("Index of List=['as','fer','dx'] element at 'fer' is",rt1.index("fer"))
+print("Index of List=['as','fer','dx'] element at 'fer' is",rt.index("fer"))
+#.append() method is used add element or a string to the list
+rt.append("integration")
+print("After adding 'integration' to the list using","append('Integration')",rt)
+rt.append(1.51)
+print("After adding 1.51 to the list using","append(1.51)",rt)
+print("Before:",stri,";After using stri.upper() =>",stri.upper())  #this will convert all string into upper case
+st5="SOYAM"
+print("Before:",st5,";After using st5.upper()  =>",st5.lower())  #this will convert all string into lower case
+areas = [11.25, 18.0, 20.0, 10.75, 9.50] # Create list areas
+# Useing append twice to add 24.5 and 15.45
+areas.append(24.5)
+areas.append(15.45)
+print(areas)# Print out areas
+areas.reverse() #Reverse the orders of the elements in areas
+print(areas) #print out areas
+#User input
+#========user_input=input("Enter your name: ")
+#========print("Your name in upper case:",user_input.upp
+#=======================================================>>>>>>Packages<<<<===============================================
