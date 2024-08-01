@@ -1,3 +1,4 @@
+# GREETING BASED ON TIME; DEVELOPED BY SOYAM KAPOOR
 import time
 timestamp=time.strftime("%H:%M:%S") #This will give you H=Hour, M=Minute, S=Seconds
 print("Current Time",timestamp)
